@@ -21,7 +21,7 @@
     
     // 初始化黑色view
     UIView *blackView = [UIView new];
-    blackView.backgroundColor = [UIColor blackColor];
+    blackView.backgroundColor = [UIColor blueColor];
     [self.view addSubview:blackView];
     
     // 给黑色view添加约束
@@ -34,7 +34,7 @@
     
     // 初始化灰色view
     UIView *grayView = [UIView new];
-    grayView.backgroundColor = [UIColor lightGrayColor];
+    grayView.backgroundColor = [UIColor redColor];
     [self.view addSubview:grayView];
     
     // 给灰色view添加约束

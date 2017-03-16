@@ -8,6 +8,11 @@
 
 #import "AppDelegate.h"
 
+#import "ViewController.h"
+#import "ViewController2.h"
+#import "ViewController3.h"
+#import "ViewController4.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +22,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    ViewController *vc2 = [[ViewController alloc]init];
+    self.window.rootViewController = vc2;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
